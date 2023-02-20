@@ -3,25 +3,30 @@ body{
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    background-color: rebeccapurple;
+    background-color: #FCFFE7;
+    font-family: 'Montserrat', sans-serif;
 }
 .title-container{
     padding-top: 15%;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+h2{
+    font-size: 5rem;
+    color: #EB455F;
 }
 section{
-    width: 50%;
+    width: 1000px;
     margin: auto auto;
 }
 article{
-    height: 100px;
-    background-color: aqua;
+    height: 150px;
+    background-color: #ffff;
     width: 100%;
+    position: relative;
 
-    position: relative;
 }
-/* .cover{
-    position: relative;
-} */
+
 .questions-container{
     margin-top: 80px;
 }
@@ -45,20 +50,24 @@ button{
     border: none;
     font-size: 2rem;
     cursor: pointer;
+    color: #BAD7E9;
+
 }
+
 span{
  position: absolute;
 }
 .answer{
-    background-color: aqua;
+    background-color: #fff;
     margin: 0 0 30px 0;
 }
 .answer-text{
     margin: 0;
     max-height: 0;
     overflow: hidden;
-    transition: all .3s ease-in-out;
+    transition: max-height .3s ease-in-out;
 }
 .expand{
     max-height: 250px;
+    padding: 0 30px 30px 30px;
 }
